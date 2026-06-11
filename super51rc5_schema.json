@@ -538,7 +538,7 @@
       }
     },
     "InstallMacOSBSIUpdates": {
-      "title": "Allow Rapid Security Response Updates",
+      "title": "Allow 'Background Security Improvements' Updates",
       "description": "As of macOS 26, 'Rapid Security Response' [RSR] Updates' have changed to 'Background Security Improvements' [BSI] Updates",
       "type": "boolean"
     },
