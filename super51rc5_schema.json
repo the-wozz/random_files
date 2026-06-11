@@ -32,7 +32,8 @@
         "inputAttributes": {
           "placeholder": "60"
         }
-      }
+      },
+      "default": "60"
     },
     "DeferralTimerFocus": {
       "title": "Focus Defer Timer",
@@ -502,7 +503,8 @@
         "inputAttributes": {
           "placeholder": "ALWAYS,DIALOG,DEADLINE,SCHEDULED,INSTALLNOW,ERROR"
         }
-      }
+      },
+      "default": "true"
     },
     "AuthCredentialFailoverToUser": {
       "title": "Credential Authentication Failover To User",
@@ -521,7 +523,7 @@
       "type": "string",
       "options": {
         "inputAttributes": {
-          "placeholder": "15"
+          "placeholder": "26"
         }
       }
     },
@@ -531,13 +533,13 @@
       "type": "string",
       "options": {
         "inputAttributes": {
-          "placeholder": "15.7.1"
+          "placeholder": "26.5.1"
         }
       }
     },
-    "InstallRapidSecurityResponses": {
+    "InstallMacOSBSIUpdates": {
       "title": "Allow Rapid Security Response Updates",
-      "description": "macOS 13.3+ Ventura support Rapid Security Response updates, which super will ignore if this is not enabled. super will ignore this setting on older macOS versions.",
+      "description": "As of macOS 26, 'Rapid Security Response' [RSR] Updates' have changed to 'Background Security Improvements' [BSI] Updates",
       "type": "boolean"
     },
     "InstallNonSystemUpdatesWithoutRestarting": {
